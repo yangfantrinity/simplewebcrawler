@@ -29,20 +29,3 @@ class firstwebscrapy(BaseSpider):
             items.append(item)
         return items
         
-        
-#    with open('C:\scrapy\first_crawler\first_crawler\result.csv', 'wb') as output:
-#        writer = csv.writer(output, delimiter=',')
-#        writer.writerows(enumerate(items))
-#        print titles
-#        print titles
-#        items = []
-#        for titles in titles:
-#            item = FirstCrawlerItem()
-#            item["title"] = titles.select("a/text()").extract()
-##            item["link"] = titles.select("a/@href").extract()
-#            items.append(item)
-#        return items
-#        for article in articles:
-#            title = articles.select("a/text()").extract()
-#            print title
-
